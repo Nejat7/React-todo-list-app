@@ -1,0 +1,12 @@
+.todo-header {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+
+  &__title {
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+  }
+}

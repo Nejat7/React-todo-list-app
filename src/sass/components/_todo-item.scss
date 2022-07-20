@@ -1,0 +1,23 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+  background-color: white;
+  box-shadow: $shadow-light;
+  font-size: 1.8rem;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &:hover img {
+    opacity: 1;
+  }
+
+  img {
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    opacity: 0;
+  }
+}
